@@ -1,1 +1,18 @@
+# ---- Données privées : ne JAMAIS committer ----
+# Contient des offres nominatives (entreprise, URL, intitulé).
 data/private/
+*.csv
+!data/public/*.csv
+!legacy/alternances_france_2026.csv
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---- Jupyter / OS ----
+.DS_Store
+Thumbs.db

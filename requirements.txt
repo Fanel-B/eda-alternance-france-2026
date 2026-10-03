@@ -1,0 +1,12 @@
+# Analyse
+pandas>=2.0
+numpy>=1.24
+scipy>=1.11          # chi2_contingency pour les tests d'independance
+matplotlib>=3.7
+
+# Notebook
+notebook>=7.0
+ipykernel>=6.0
+
+# Hygiene git : vide les sorties du notebook avant chaque commit
+nbstripout>=0.7
