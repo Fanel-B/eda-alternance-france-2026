@@ -1,0 +1,13 @@
+,Ensemble,LinkedIn (alertes mail),France Travail (API),La Bonne Alternance (API),Verdict
+title,100.0,100.0,100.0,100.0,complet
+company,94.6,100.0,72.0,57.9,exploitable
+location,85.1,82.3,100.0,100.0,exploitable
+contract_type,57.2,49.1,100.0,100.0,partiel - biais de selection
+education_required,2.2,0.0,4.0,26.3,inutilisable (trop rare)
+skills_required,37.7,32.3,84.0,42.1,partiel - biais de selection
+skills_optional,0.0,0.0,0.0,0.0,inutilisable (vide)
+start_date,4.3,0.0,28.0,26.3,inutilisable (trop rare)
+end_date,0.0,0.0,0.0,0.0,inutilisable (vide)
+duration,14.1,0.0,100.0,73.7,inutilisable (trop rare)
+remuneration,11.2,9.5,36.0,0.0,inutilisable (trop rare)
+published_at,99.6,100.0,100.0,94.7,exploitable

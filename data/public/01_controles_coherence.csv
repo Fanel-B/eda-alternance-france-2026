@@ -1,0 +1,6 @@
+controle,attendu,observe,statut,consequence
+C1 - identite de l'entonnoir (par run),trouvees = nouvelles + doublons + rejetees sur les 554 runs,0 run(s) en ecart,OK,Les compteurs de collecte sont exploitables (partie 5).
+C2 - reconciliation runs / table d'offres,somme(offers_new) = nombre de lignes stockees,230 annoncees vs 276 stockees (ecart +46),ECHEC,La table d'offres a ete reinitialisee en cours de periode : voir ci-dessous.
+C3 - unicite des identifiants d'offre,aucun id en double,0 doublon(s),OK,Les comptages d'offres ne surestiment rien.
+C4 - couverture temporelle des runs,la periode des runs englobe celle des offres,runs 2026-09-23 -> 2026-10-03 | offres 2026-09-26 -> 2026-10-03,OK,Aucune offre n'arrive d'une periode non journalisee.
+C5 - absence d'import en masse,aucun horodatage ne porte plus de 25 offres,133 offre(s) dans 2 lot(s),ECHEC,Ces lignes sont ecartees du calcul des delais (partie 8).

@@ -1,0 +1,4 @@
+source_offre,examinees,nouvelles,doublons,rejetees,runs,runs_en_succes,taux_succes_%,nouvelles_par_run
+LinkedIn (alertes mail),38820,174,28188,10458,182,182,100.0,0.96
+France Travail (API),6240,23,4266,1951,186,184,98.9,0.12
+La Bonne Alternance (API),38790,33,9740,29017,186,186,100.0,0.18

@@ -1,0 +1,3 @@
+,offres,mecanisme
+champ lieu vide,41,aucun lieu fourni par la source
+champ lieu non geolocalisable,10,lieu fourni mais non reconnu comme une ville

@@ -1,0 +1,5 @@
+libelle,methode,n,p,v,valide,conclusion
+source x zone - table complete (3 x 4),aucune,276,2.035156642509064e-07,0.27510453747119246,False,test non valide (effectifs theoriques insuffisants)
+canal de collecte x zone (Toulouse / IDF),chi2,219,3.5071455362793496e-06,0.3134500352644861,True,"lien detectable, intensite moderee (V = 0.31)"
+motif 'contrat non fourni' x canal de collecte,Fisher exact,132,1.773138800555524e-13,0.783142401138106,True,"lien detectable, intensite forte (V = 0.78)"
+famille de metier x zone (familles n >= 30 seulement),chi2,180,0.001344458547977407,0.2710425123182207,True,"lien detectable, intensite moderee (V = 0.27)"
